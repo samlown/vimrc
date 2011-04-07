@@ -3,6 +3,7 @@
 set nocompatible
 
 nmap <silent> <Leader>p :NERDTreeToggle<CR>
+nmap <silent> <Leader>t :CommandT<CR>
 
 " don't allow backspacing over everything in insert mode
 "set backspace=
