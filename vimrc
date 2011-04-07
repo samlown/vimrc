@@ -191,3 +191,12 @@ autocmd User Rails map <Leader>tg :RTconfig
 " nnoremap <Up> :echoe "Use k"<CR>
 " nnoremap <Down> :echoe "Use j"<CR>
 
+" FuzzyFinder Setup
+nnoremap <c-f> :FufFile<CR>
+
+"map <leader>b :FuzzyFinderBuffer<CR>
+"map <leader>] :FuzzyFinderMruFile<CR>
+"map <leader>r :ruby finder.rescan!<CR>
+
+
+
