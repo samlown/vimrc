@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/home/sam/.vim'
 let g:netrw_dirhist_2='/home/sam/workspace/FloresFrescas.com/app/views/artifacts/accessories'
 let g:netrw_dirhist_3='/home/sam/workspace/active_merchant/lib/active_merchant/billing/integrations/sermepa'
+let g:netrw_dirhist_4='/home/sam/workspace/bbvaci.com/config/locales/es'
