@@ -5,6 +5,10 @@ set nocompatible
 nmap <silent> <Leader>p :NERDTreeToggle<CR>
 nmap <silent> <Leader>t :CommandT<CR>
 
+filetype off
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
+
 " don't allow backspacing over everything in insert mode
 "set backspace=
 
