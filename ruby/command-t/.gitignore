@@ -4,3 +4,4 @@ ext.so
 match.o
 matcher.o
 mkmf.log
+ext.bundle

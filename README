@@ -1,0 +1,10 @@
+
+Vimrc
+
+After install, don't foget to compile Command-T interface:
+
+    cd ~/.vim/ruby/command-t
+    ruby extconf.rb
+    make
+
+
