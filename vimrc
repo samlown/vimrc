@@ -123,7 +123,7 @@ imap <C-F> <C-R>=expand("%")<CR>
 vmap P p :call setreg('"', getreg('0')) <CR>
 
 " Display extra whitespace
-set list listchars=tab:»·,trail:·
+"set list listchars=tab:»·,trail:·
 
 " Edit routes
 command! Rroutes :e config/routes.rb
@@ -195,13 +195,10 @@ autocmd User Rails map <Leader>tg :RTconfig
 " nnoremap <Right> :echoe "Use l"<CR>
 " nnoremap <Up> :echoe "Use k"<CR>
 " nnoremap <Down> :echoe "Use j"<CR>
+"
 
-" FuzzyFinder Setup
-nnoremap <c-f> :FufFile<CR>
+" Support for ctrip
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
-"map <leader>b :FuzzyFinderBuffer<CR>
-"map <leader>] :FuzzyFinderMruFile<CR>
-"map <leader>r :ruby finder.rescan!<CR>
-
-
+au BufRead,BufNewFile *.hamlc set ft=haml
 
