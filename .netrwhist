@@ -1,10 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Users/sam/workspace/couch_tap/.git'
-let g:netrw_dirhist_2='/Users/sam/workspace/cabify_server/public/assets/profile'
-let g:netrw_dirhist_3='/Users/sam/workspace/cabify_couch_tap/migrataions'
-let g:netrw_dirhist_4='/Users/sam/workspace/cabify_server/config/deploy'
-let g:netrw_dirhist_5='/Users/sam/workspace/couchrest_model/lib/couchrest'
-let g:netrw_dirhist_6='/Users/sam/workspace/cabify_couch_tap/migrations'
-let g:netrw_dirhist_7='/Users/sam/workspace/cabify_server/config/deploy'
-let g:netrw_dirhist_8='/Users/sam/.vim/ruby/command-t'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Users/sam/workspace/cabify_server_node/config/subscriber'
+let g:netrw_dirhist_2='/Users/sam/workspace/cabify_mobile_ios/.git'
