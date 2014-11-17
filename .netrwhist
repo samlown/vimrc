@@ -1,4 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/Users/sam/workspace/cabify_server_node/config/subscriber'
 let g:netrw_dirhist_2='/Users/sam/workspace/cabify_mobile_ios/.git'
+let g:netrw_dirhist_3='/Users/sam/workspace/restfulness/lib/restfulness'

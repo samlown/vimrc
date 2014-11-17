@@ -2,6 +2,21 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Vundle Package Stuff, be sure to run :PluginInstall occaisionally!
+Plugin 'gmarik/Vundle.vim'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdtree'
+Plugin 'kien/ctrlp.vim'
+
+
+let g:vim_markdown_folding_disabled=1
+
 nmap <silent> <Leader>p :NERDTreeToggle<CR>
 nmap <silent> <Leader>t :CommandT<CR>
 
@@ -13,12 +28,13 @@ call pathogen#runtime_append_all_bundles()
 "set backspace=
 
 " Neocomplete
-let g:acp_enableAtStartup = 0
-let g:neocomplete#enable_at_startup = 1
-let g:neocomplete#enable_smart_case = 1
+
+"let g:acp_enableAtStartup = 0
+"let g:neocomplete#enable_at_startup = 0
+"let g:neocomplete#enable_smart_case = 1
 
 " Set minimum syntax keyword length
-let g:neocomplete#sources#syntax#min_keyword_length = 3
+"let g:neocomplete#sources#syntax#min_keyword_length = 3
 
 " Enable omni completion.
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
@@ -26,6 +42,9 @@ autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+autocmd FileType ruby setlocal omnifunc=rubycomplete#Complete
+
+" end Neocomplete
 
 set nobackup
 set nowritebackup
@@ -118,7 +137,7 @@ map <Leader>te :tabe <C-R>=expand("%:p:h") . "/" <CR>
 cmap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
 
 " Maps autocomplete to tab
-imap <Tab> <C-P>
+"imap <Tab> <C-P>
 
 " Duplicate a selection
 " Visual mode: D
@@ -217,3 +236,6 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 au BufRead,BufNewFile *.hamlc set ft=haml
 
+" Automatic spell checking on special files
+autocmd BufRead,BufNewFile *.md setlocal spell
+autocmd FileType gitcommit setlocal spell
