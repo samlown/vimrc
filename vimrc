@@ -13,6 +13,7 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
+Plugin 'fatih/vim-go'
 
 
 let g:vim_markdown_folding_disabled=1
