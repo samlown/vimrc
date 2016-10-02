@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/sam/workspace/cabify_server_node/config/subscriber'
 let g:netrw_dirhist_2='/Users/sam/workspace/cabify_mobile_ios/.git'
 let g:netrw_dirhist_3='/Users/sam/workspace/restfulness/lib/restfulness'
+let g:netrw_dirhist_4='/Users/sam/workspace/cabify_server_node/node_modules/redis'
+let g:netrw_dirhist_5='/Users/sam/workspace/cabify/ansible/roles/cabify_rails/defaults'
+let g:netrw_dirhist_6='/Users/sam/Library/Application Support/CouchDB/etc'

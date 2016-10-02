@@ -14,6 +14,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'fatih/vim-go'
+Plugin 'elixir-lang/vim-elixir'
 
 
 let g:vim_markdown_folding_disabled=1
